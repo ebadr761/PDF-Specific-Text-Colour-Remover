@@ -21,4 +21,4 @@ def remove_blue_text(input_pdf, output_pdf):
     doc.save(output_pdf)
     print(f"Done! Saved to {output_pdf}")
 
-remove_blue_text("Final Practice - Solution.pdf", "cleaned_exam.pdf")
+remove_blue_text("Final Practice - Solution.pdf", "cleaned_exam.pdf") # After adding your files to this directory, edit this line accordingly
