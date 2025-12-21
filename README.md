@@ -7,7 +7,7 @@ Just make sure to edit the line that gets the PDF you want to change (I have it 
 ---
 
 ## How It Works
-The script scans every "span" of text in your PDF. If the text color matches the "solution color" defined in the script (and isn't the standard black text), it applies a white redaction box over that specific coordinate.
+The script scans every "span" of text in your PDF. If the text color matches the "solution color" defined in the script (and isn't the standard black text), it applies a white redaction box over that specific coordinate essentially erasing that colour of text from the document.
 
 ## Make sure to install PyMuPDF:
 
